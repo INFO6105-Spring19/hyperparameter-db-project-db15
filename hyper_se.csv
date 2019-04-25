@@ -1,0 +1,7 @@
+,base_models,blending_frame,export_checkpoints_dir,keep_levelone_frame,metalearner_algorithm,metalearner_fold_assignment,metalearner_fold_column,metalearner_nfolds,metalearner_params,model_id,response_column,seed,training_frame,validation_frame
+actual,GBM_2_AutoML_20190420_162320,,,True,AUTO,,,5,,StackedEnsemble_BestOfFamily_AutoML_20190420_162320,income,-5632113979097777991,automl_training_adult3.hex,
+default,GBM_2_AutoML_20190420_162320,,,False,AUTO,,,0,,StackedEnsemble_BestOfFamily_AutoML_20190420_162320,income,-1,automl_training_adult3.hex,
+actual,GBM_2_AutoML_20190420_151756,,,True,AUTO,,,5,,StackedEnsemble_BestOfFamily_AutoML_20190420_151756,income,-3438574062421814626,automl_training_adult2.hex,
+default,GBM_2_AutoML_20190420_151756,,,False,AUTO,,,0,,StackedEnsemble_BestOfFamily_AutoML_20190420_151756,income,-1,automl_training_adult2.hex,
+actual,GBM_1_AutoML_20190420_135144,,,True,AUTO,,,5,,StackedEnsemble_BestOfFamily_AutoML_20190420_135144,income,-1133095260751359789,automl_training_adult1.hex,
+default,GBM_1_AutoML_20190420_135144,,,False,AUTO,,,0,,StackedEnsemble_BestOfFamily_AutoML_20190420_135144,income,-1,automl_training_adult1.hex,

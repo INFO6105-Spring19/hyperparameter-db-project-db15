@@ -1,0 +1,121 @@
+,analysis,balance,balance_threshold,classification,data_path,end_time,execution_time,max_models,min_mem_size,mod_best,mod_best.params,mod_best.varimp(),mod_best_algo,model_execution_time,model_path,models,nthreads,project,run_id,run_path,run_time,scale,server_path,start_time,target,test_path,variables,x
+0,0.0,False,0.2,False,C:/Users/pkash/Downloads/adult.csv,1555792831.8659692,1149.3713541030884,100.0,6.0,StackedEnsemble_BestOfFamily_AutoML_20190420_162320,,,stackedensemble,897.818874835968,,GBM_2_AutoML_20190420_162320,1.0,,IpxFGNwiH,C:\Users\pkash\iqhzVWRCU\IpxFGNwiH,1000.0,False,C:\Users\pkash\iqhzVWRCU,1555791682.494615,,,,age
+1,,,,,,,,,,,,,,,,XRT_1_AutoML_20190420_162320,,,,,,,,,,,,workclass
+2,,,,,,,,,,,,,,,,DeepLearning_1_AutoML_20190420_162320,,,,,,,,,,,,fnlwgt
+3,,,,,,,,,,,,,,,,DRF_1_AutoML_20190420_162320,,,,,,,,,,,,education
+4,,,,,,,,,,,,,,,,GLM_grid_1_AutoML_20190420_162320_model_1,,,,,,,,,,,,educational-num
+5,,,,,,,,,,,,,,,,StackedEnsemble_BestOfFamily_AutoML_20190420_162320,,,,,,,,,,,,marital-status
+6,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation
+7,,,,,,,,,,,,,,,,,,,,,,,,,,,,relationship
+8,,,,,,,,,,,,,,,,,,,,,,,,,,,,race
+9,,,,,,,,,,,,,,,,,,,,,,,,,,,,capital-gain
+10,,,,,,,,,,,,,,,,,,,,,,,,,,,,native-country
+age,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+workclass,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+fnlwgt,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+education,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+educational-num,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+marital-status,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+occupation,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+relationship,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+race,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+gender,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+capital-gain,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+capital-loss,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+hours-per-week,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+native-country,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+income,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+model_id,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'StackedEnsemble_BestOfFamily_AutoML_20190420_162320', 'type': 'Key<Model>', 'URL': '/3/Models/StackedEnsemble_BestOfFamily_AutoML_20190420_162320'}}",,,,,,,,,,,,,,,,,
+training_frame,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'FrameKeyV3', 'schema_type': 'Key<Frame>'}, 'name': 'automl_training_adult3.hex', 'type': 'Key<Frame>', 'URL': '/3/Frames/automl_training_adult3.hex'}}",,,,,,,,,,,,,,,,,
+response_column,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ColSpecifierV3', 'schema_type': 'VecSpecifier'}, 'column_name': 'income', 'is_member_of_frames': None}}",,,,,,,,,,,,,,,,,
+validation_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+blending_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+base_models,,,,,,,,,,,"{'default': [], 'actual': [{'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GBM_2_AutoML_20190420_162320', 'type': 'Key<Model>', 'URL': '/3/Models/GBM_2_AutoML_20190420_162320'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'XRT_1_AutoML_20190420_162320', 'type': 'Key<Model>', 'URL': '/3/Models/XRT_1_AutoML_20190420_162320'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DeepLearning_1_AutoML_20190420_162320', 'type': 'Key<Model>', 'URL': '/3/Models/DeepLearning_1_AutoML_20190420_162320'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DRF_1_AutoML_20190420_162320', 'type': 'Key<Model>', 'URL': '/3/Models/DRF_1_AutoML_20190420_162320'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GLM_grid_1_AutoML_20190420_162320_model_1', 'type': 'Key<Model>', 'URL': '/3/Models/GLM_grid_1_AutoML_20190420_162320_model_1'}]}",,,,,,,,,,,,,,,,,
+metalearner_algorithm,,,,,,,,,,,"{'default': 'AUTO', 'actual': 'AUTO'}",,,,,,,,,,,,,,,,,
+metalearner_nfolds,,,,,,,,,,,"{'default': 0, 'actual': 5}",,,,,,,,,,,,,,,,,
+metalearner_fold_assignment,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_fold_column,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_params,,,,,,,,,,,"{'default': '', 'actual': ''}",,,,,,,,,,,,,,,,,
+seed,,,,,,,,,,,"{'default': -1, 'actual': -5632113979097777991}",,,,,,,,,,,,,,,,,
+keep_levelone_frame,,,,,,,,,,,"{'default': False, 'actual': True}",,,,,,,,,,,,,,,,,
+export_checkpoints_dir,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+0,0.0,False,0.2,False,C:/Users/pkash/Downloads/adult.csv,1555790958.1065361,3110.1964349746704,100.0,6.0,StackedEnsemble_BestOfFamily_AutoML_20190420_151756,,,stackedensemble,3028.4465663433075,,GBM_2_AutoML_20190420_151756,1.0,,DTyPnzatz,C:\Users\pkash\DTyPnzatz,3600.0,False,C:\Users\pkash,1555787847.9101012,,,,age
+1,,,,,,,,,,,,,,,,DeepLearning_grid_1_AutoML_20190420_151756_model_3,,,,,,,,,,,,workclass
+2,,,,,,,,,,,,,,,,XRT_1_AutoML_20190420_151756,,,,,,,,,,,,fnlwgt
+3,,,,,,,,,,,,,,,,DRF_1_AutoML_20190420_151756,,,,,,,,,,,,educational-num
+4,,,,,,,,,,,,,,,,GLM_grid_1_AutoML_20190420_151756_model_1,,,,,,,,,,,,marital-status
+5,,,,,,,,,,,,,,,,StackedEnsemble_BestOfFamily_AutoML_20190420_151756,,,,,,,,,,,,occupation
+6,,,,,,,,,,,,,,,,,,,,,,,,,,,,relationship
+7,,,,,,,,,,,,,,,,,,,,,,,,,,,,race
+8,,,,,,,,,,,,,,,,,,,,,,,,,,,,gender
+9,,,,,,,,,,,,,,,,,,,,,,,,,,,,capital-gain
+10,,,,,,,,,,,,,,,,,,,,,,,,,,,,native-country
+age,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+workclass,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+fnlwgt,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+education,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+educational-num,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+marital-status,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+occupation,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+relationship,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+race,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+gender,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+capital-gain,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+capital-loss,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+hours-per-week,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+native-country,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+income,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+model_id,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'StackedEnsemble_BestOfFamily_AutoML_20190420_151756', 'type': 'Key<Model>', 'URL': '/3/Models/StackedEnsemble_BestOfFamily_AutoML_20190420_151756'}}",,,,,,,,,,,,,,,,,
+training_frame,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'FrameKeyV3', 'schema_type': 'Key<Frame>'}, 'name': 'automl_training_adult2.hex', 'type': 'Key<Frame>', 'URL': '/3/Frames/automl_training_adult2.hex'}}",,,,,,,,,,,,,,,,,
+response_column,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ColSpecifierV3', 'schema_type': 'VecSpecifier'}, 'column_name': 'income', 'is_member_of_frames': None}}",,,,,,,,,,,,,,,,,
+validation_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+blending_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+base_models,,,,,,,,,,,"{'default': [], 'actual': [{'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GBM_2_AutoML_20190420_151756', 'type': 'Key<Model>', 'URL': '/3/Models/GBM_2_AutoML_20190420_151756'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DeepLearning_grid_1_AutoML_20190420_151756_model_3', 'type': 'Key<Model>', 'URL': '/3/Models/DeepLearning_grid_1_AutoML_20190420_151756_model_3'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'XRT_1_AutoML_20190420_151756', 'type': 'Key<Model>', 'URL': '/3/Models/XRT_1_AutoML_20190420_151756'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DRF_1_AutoML_20190420_151756', 'type': 'Key<Model>', 'URL': '/3/Models/DRF_1_AutoML_20190420_151756'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GLM_grid_1_AutoML_20190420_151756_model_1', 'type': 'Key<Model>', 'URL': '/3/Models/GLM_grid_1_AutoML_20190420_151756_model_1'}]}",,,,,,,,,,,,,,,,,
+metalearner_algorithm,,,,,,,,,,,"{'default': 'AUTO', 'actual': 'AUTO'}",,,,,,,,,,,,,,,,,
+metalearner_nfolds,,,,,,,,,,,"{'default': 0, 'actual': 5}",,,,,,,,,,,,,,,,,
+metalearner_fold_assignment,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_fold_column,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_params,,,,,,,,,,,"{'default': '', 'actual': ''}",,,,,,,,,,,,,,,,,
+seed,,,,,,,,,,,"{'default': -1, 'actual': -3438574062421814626}",,,,,,,,,,,,,,,,,
+keep_levelone_frame,,,,,,,,,,,"{'default': False, 'actual': True}",,,,,,,,,,,,,,,,,
+export_checkpoints_dir,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+0,0.0,False,0.2,False,C:/Users/pkash/Downloads/adult.csv,1555783538.0909336,1006.915598154068,100.0,6.0,StackedEnsemble_BestOfFamily_AutoML_20190420_135144,,,stackedensemble,129.29690432548523,,GBM_1_AutoML_20190420_135144,1.0,,BM0pDguoC,C:\Users\pkash\BM0pDguoC,100.0,False,C:\Users\pkash,1555782531.1753354,,,,age
+1,,,,,,,,,,,,,,,,DRF_1_AutoML_20190420_135144,,,,,,,,,,,,workclass
+2,,,,,,,,,,,,,,,,DeepLearning_1_AutoML_20190420_135144,,,,,,,,,,,,fnlwgt
+3,,,,,,,,,,,,,,,,XRT_1_AutoML_20190420_135144,,,,,,,,,,,,educational-num
+4,,,,,,,,,,,,,,,,GLM_grid_1_AutoML_20190420_135144_model_1,,,,,,,,,,,,marital-status
+5,,,,,,,,,,,,,,,,StackedEnsemble_BestOfFamily_AutoML_20190420_135144,,,,,,,,,,,,occupation
+6,,,,,,,,,,,,,,,,,,,,,,,,,,,,relationship
+7,,,,,,,,,,,,,,,,,,,,,,,,,,,,race
+8,,,,,,,,,,,,,,,,,,,,,,,,,,,,gender
+9,,,,,,,,,,,,,,,,,,,,,,,,,,,,capital-gain
+10,,,,,,,,,,,,,,,,,,,,,,,,,,,,native-country
+age,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+workclass,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+fnlwgt,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+education,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+educational-num,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+marital-status,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+occupation,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+relationship,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+race,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+gender,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+capital-gain,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+capital-loss,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+hours-per-week,,,,,,,,,,,,,,,,,,,,,,,,,,,int,
+native-country,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+income,,,,,,,,,,,,,,,,,,,,,,,,,,,enum,
+model_id,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'StackedEnsemble_BestOfFamily_AutoML_20190420_135144', 'type': 'Key<Model>', 'URL': '/3/Models/StackedEnsemble_BestOfFamily_AutoML_20190420_135144'}}",,,,,,,,,,,,,,,,,
+training_frame,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'FrameKeyV3', 'schema_type': 'Key<Frame>'}, 'name': 'automl_training_adult1.hex', 'type': 'Key<Frame>', 'URL': '/3/Frames/automl_training_adult1.hex'}}",,,,,,,,,,,,,,,,,
+response_column,,,,,,,,,,,"{'default': None, 'actual': {'__meta': {'schema_version': 3, 'schema_name': 'ColSpecifierV3', 'schema_type': 'VecSpecifier'}, 'column_name': 'income', 'is_member_of_frames': None}}",,,,,,,,,,,,,,,,,
+validation_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+blending_frame,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+base_models,,,,,,,,,,,"{'default': [], 'actual': [{'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GBM_1_AutoML_20190420_135144', 'type': 'Key<Model>', 'URL': '/3/Models/GBM_1_AutoML_20190420_135144'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DRF_1_AutoML_20190420_135144', 'type': 'Key<Model>', 'URL': '/3/Models/DRF_1_AutoML_20190420_135144'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'DeepLearning_1_AutoML_20190420_135144', 'type': 'Key<Model>', 'URL': '/3/Models/DeepLearning_1_AutoML_20190420_135144'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'XRT_1_AutoML_20190420_135144', 'type': 'Key<Model>', 'URL': '/3/Models/XRT_1_AutoML_20190420_135144'}, {'__meta': {'schema_version': 3, 'schema_name': 'ModelKeyV3', 'schema_type': 'Key<Model>'}, 'name': 'GLM_grid_1_AutoML_20190420_135144_model_1', 'type': 'Key<Model>', 'URL': '/3/Models/GLM_grid_1_AutoML_20190420_135144_model_1'}]}",,,,,,,,,,,,,,,,,
+metalearner_algorithm,,,,,,,,,,,"{'default': 'AUTO', 'actual': 'AUTO'}",,,,,,,,,,,,,,,,,
+metalearner_nfolds,,,,,,,,,,,"{'default': 0, 'actual': 5}",,,,,,,,,,,,,,,,,
+metalearner_fold_assignment,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_fold_column,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
+metalearner_params,,,,,,,,,,,"{'default': '', 'actual': ''}",,,,,,,,,,,,,,,,,
+seed,,,,,,,,,,,"{'default': -1, 'actual': -1133095260751359789}",,,,,,,,,,,,,,,,,
+keep_levelone_frame,,,,,,,,,,,"{'default': False, 'actual': True}",,,,,,,,,,,,,,,,,
+export_checkpoints_dir,,,,,,,,,,,"{'default': None, 'actual': None}",,,,,,,,,,,,,,,,,
